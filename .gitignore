@@ -3,3 +3,8 @@ assets/mockups/
 
 # macOS
 .DS_Store
+
+# Original images (not used by the pages)
+assets/images/headshots/
+assets/images/services/*.png
+assets/images/hero_width_2400.png
