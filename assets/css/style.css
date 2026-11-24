@@ -1,0 +1,13 @@
+/* Navbar */
+.navbar {
+    --bs-navbar-color: #3b2f2f;
+    --bs-navbar-hover-color: #3b2f2f;
+    --bs-navbar-active-color: #3b2f2f;
+    --bs-navbar-brand-color: #3b2f2f;
+    --bs-navbar-brand-hover-color: #3b2f2f;
+    font-family: Arial, sans-serif;
+}
+
+.navbar .nav-link.active {
+    font-weight: 600;
+}
