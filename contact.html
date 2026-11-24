@@ -49,12 +49,33 @@
     <main>
         <!-- Hero -->
         <section class="hero position-relative">
-
+            <div class="container text-center pt-5">
+                <h1 class="display-4">Get in Touch</h1>
+                <p class="lead mb-0">We'd love to hear from you</p>
+            </div>
         </section>
 
         <!-- Content -->
         <section class="container py-5">
-
+            <form class="contact-form mx-auto" id="contactForm" action="thank-you.html">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" autocomplete="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-brown btn-lg">Send Message</button>
+            </form>
         </section>
     </main>
 
@@ -80,5 +101,7 @@
 
     <!-- Bootstrap JS bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/contact.js"></script>
 </body>
 </html>
