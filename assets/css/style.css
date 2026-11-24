@@ -29,6 +29,11 @@ h6 {
     object-position: 75% center;
 }
 
+.hero-small .hero-img {
+    height: 40vh;
+    min-height: 250px;
+}
+
 /* Dark overlay so the light heading is readable over the image */
 .hero-content {
     background: rgba(0, 0, 0, 0.5);
@@ -60,6 +65,18 @@ h6 {
 .service-card .card-img-top {
     height: 200px;
     object-fit: cover;
+}
+
+/* Service details */
+.rounded-image {
+    border-radius: 15px;
+}
+
+/* Team */
+.team-card .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    object-position: center 20%;
 }
 
 /* Testimonials */
