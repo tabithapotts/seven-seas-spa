@@ -1,3 +1,13 @@
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Handlee", cursive;
+}
+
 /* Navbar */
 .navbar {
     --bs-navbar-color: #3b2f2f;
@@ -10,4 +20,33 @@
 
 .navbar .nav-link.active {
     font-weight: 600;
+}
+
+/* Hero */
+.hero-img {
+    height: 80vh;
+    object-fit: cover;
+    object-position: 75% center;
+}
+
+/* Dark overlay so the light heading is readable over the image */
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-text {
+    max-width: 700px;
+    color: #ffebd4;
+}
+
+.hero-text .btn {
+    --bs-btn-color: #3b2f2f;
+    --bs-btn-hover-color: #3b2f2f;
+    --bs-btn-active-color: #3b2f2f;
+}
+
+@media (max-width: 991.98px) {
+    .hero-content {
+        background: rgba(0, 0, 0, 0.65);
+    }
 }
